@@ -22,8 +22,8 @@
 			<authentication>
 				<basic/>
 					<serverIdentity>
-						<username>avieshel</username>
-						<password>zaQ12wsx</password>
+						<username>vietiontlarmillensionste</username>
+						<password>D4TLptdKhQYsn26kIKf3RNqh</password>
 					</serverIdentity>
 			</authentication>  
 			<maxConcurrentConnectionsPerNode>4</maxConcurrentConnectionsPerNode>	

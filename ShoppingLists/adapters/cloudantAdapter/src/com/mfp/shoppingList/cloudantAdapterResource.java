@@ -102,7 +102,12 @@ public class cloudantAdapterResource {
 		}catch (MFPServerOAuthException | IOException e){
 			e.printStackTrace();
 		}
-		return adaptersApi.getResponseAsJSON(res);
+		//return adaptersApi.getResponseAsJSON(res);
+		JSONObject doc = new JSONObject();
+		doc.put("title", title);
+		doc.put("username", username);
+		doc.put("items", adaptersApi.getResponseAsJSON(res).get("items"));
+		return (doc);
 	}
 	
 }
