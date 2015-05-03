@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ShoppingLists">
+        <wb-resource deploy-path="/" source-path="/apps/ShoppingLists/common"/>
+        <wb-resource deploy-path="/" source-path="/adapters/cloudantAdapter/src"/>
+        <property name="context-root" value="ShoppingLists"/>
+    </wb-module>
+</project-modules>
